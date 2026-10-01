@@ -1,0 +1,9 @@
+node_modules/
+ml-service/venv/
+backend/ml-analyser-backend/target/
+.env
+# Sensitive/local files
+Notes/password.txt
+ml-service/__pycache__/
+backend/ml-analyser-backend/src/main/resources/application.properties
+Notes/
