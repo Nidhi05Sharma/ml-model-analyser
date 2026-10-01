@@ -22,7 +22,7 @@ public class TrainController {
         this.experimentRepository = experimentRepository;
 
         this.restClient = RestClient.builder()
-                .baseUrl("http://127.0.0.1:8000")
+                .baseUrl("https://ml-analyser-ml-service.onrender.com")
                 .build();
     }
 
